@@ -8,3 +8,5 @@ function generateRandomArray()
 var myStupidArray = generateRandomArray();
 
 //Your code here
+var thelastone = myStupidArray.length
+console.log(thelastone)
