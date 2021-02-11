@@ -2,6 +2,8 @@ var people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 
 //loop here to find waldo, use the if conditionals
  for(let i = 0; i<people.length;i++) {
-    console.log(people[i]);
-	if (people[i]='Waldo') break;
+
+    if (people[i]='Waldo') console.log(people[i]);
+break;
+    
 }
