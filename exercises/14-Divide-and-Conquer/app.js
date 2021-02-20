@@ -1,6 +1,15 @@
-let list_of_numbers = [4, 80, 85, 59, 37,25, 5, 64, 66,	81,20, 64, 41, 22, 76,76, 55, 96, 2, 68];
+let array = [4, 80, 85, 59, 37,25, 5, 64, 66,	81,20, 64, 41, 22, 76,76, 55, 96, 2, 68];
 
-// your code here
+    i = 0,
+    l = array.length;
 
+while (i < l) {
+    if (array[i] % 2 === 0) {
+        array.push(array.splice(i, 1)[0]);
+        l--;
+        continue;
+    }
+    i++;
+}
 
-console.log(mergeTwoList(list_of_numbers))
+console.log(array);
