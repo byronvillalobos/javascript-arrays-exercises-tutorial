@@ -10,3 +10,13 @@ let tasks = [
 ];
 
 //your code here
+
+
+const newarr = tasks.filter(function(value){
+    return value.done;
+
+});
+
+console.log(newarr);
+
+
