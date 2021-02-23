@@ -17,4 +17,4 @@ return newArray;
 
 
 // do not change anything from this line down
-console.log(matrixBuilder(4));
+console.log(matrixBuilder(5));
