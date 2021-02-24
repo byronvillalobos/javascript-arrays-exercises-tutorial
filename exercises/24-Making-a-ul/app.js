@@ -1,11 +1,11 @@
-let allColors = [
-	{label: 'Red', sexy: true},
-	{label: 'Pink', sexy: false},
-	{label: 'Orange', sexy: true},
-	{label: 'Brown', sexy: false},
+let color = [
+	{label: 'Red', sexy: false},
 	{label: 'Pink', sexy: true},
-	{label: 'Violet', sexy: true},
-	{label: 'Purple', sexy: false},
+	{label: 'Orange', sexy: false},
+	{label: 'Brown', sexy: true},
+	{label: 'Pink', sexy: false},
+	{label: 'Violet', sexy: false},
+	{label: 'Purple', sexy: true},
 ];
 
 function generateLI(color){
@@ -32,5 +32,5 @@ function generateHTMLFromArray(array){
 	return htmlString;
 }
 
-console.log(generateHTMLFromArray(allColors));
+console.log(generateHTMLFromArray(color));
 
